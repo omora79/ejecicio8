@@ -15,5 +15,14 @@ public class Ejercicio8
         Console.WriteLine("Escriba un numero: ");
         num = Convert.ToDouble(Console.ReadLine());
 
+        if ((num % 2) == 0)
+        {
+            Console.WriteLine($"El numero {num} es par");
+
+        }
+        else
+        {
+            Console.WriteLine($"el numero {num} es impar");
+        }
     }
 }
